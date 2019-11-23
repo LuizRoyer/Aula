@@ -1,0 +1,11 @@
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\bin\Debug\netcoreapp2.1\QuartaAula_11_07.deps.json
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\bin\Debug\netcoreapp2.1\QuartaAula_11_07.runtimeconfig.json
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\bin\Debug\netcoreapp2.1\QuartaAula_11_07.runtimeconfig.dev.json
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\bin\Debug\netcoreapp2.1\QuartaAula_11_07.dll
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\bin\Debug\netcoreapp2.1\QuartaAula_11_07.pdb
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\obj\Debug\netcoreapp2.1\QuartaAula_11_07.csprojAssemblyReference.cache
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\obj\Debug\netcoreapp2.1\QuartaAula_11_07.csproj.CoreCompileInputs.cache
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\obj\Debug\netcoreapp2.1\QuartaAula_11_07.AssemblyInfoInputs.cache
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\obj\Debug\netcoreapp2.1\QuartaAula_11_07.AssemblyInfo.cs
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\obj\Debug\netcoreapp2.1\QuartaAula_11_07.dll
+C:\Users\k27287\source\repos\Aula\QuartaAula_11_07\QuartaAula_11_07\obj\Debug\netcoreapp2.1\QuartaAula_11_07.pdb

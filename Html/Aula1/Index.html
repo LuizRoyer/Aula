@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <!-- Cabeçalho-->
+    <style>
+        .titulo {
+            color: red;
+        }
+
+        .main {
+            font-size: 15px;
+        }
+
+        .conteudo {
+            color: green;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .error {
+            border-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Corpo -->
+    <div class="main">
+        <h1 class="titulo">Hello World !</h1>
+        <!--Titulo-->
+        <p> Bem vindo a primeira </p>
+        <p> Aula de Html</p>
+
+
+        <label>Informe seu Nome</label>
+        <input type="text" id="txtNome">
+        <button id="btnSend">Enviar</button>
+    </div>
+
+    <div class="conteudo"></div>
+
+
+</body>
+
+    <script> // Comando java script
+        let input = document.getElementById("txtNome");
+        let button = document.getElementById("btnSend");
+        // pega a primeira tag(class) com o nome = conteudo
+        let conteudo = document.getElementsByClassName("conteudo")[0];
+
+
+        button.addEventListener('click', () => {
+            conteudo.innerHTML = "";
+            input.classList.remove('error')
+
+          //  if (validaCampos())
+          //      conteudo.innerHTML = `<h1> seja bem vindo ${input.value}</h1>`;
+          BuscarCep();
+        });
+
+        function validaCampos() {
+            if (input.value === "") {
+                input.classList.add('error');
+                return false;
+            }
+            else
+                return true;
+        }
+
+        function BuscarCep(){
+          let xml= new XMLHttpRequest();
+          xml.open('GET',`https://viacep.com.br/ws/${input.value}/json`,true);
+            xml.onreadystatechange = ()=>{
+                if(xml.readyState === 4 && xml.status === 200){
+                    let data = JSON.parse(xml.responseText);
+                    conteudo.innerHTML = `
+                    <h1>Cidade: ${data.localidade}</h1>
+                    <h1>Bairro: ${data.bairro}</h1>
+                    <h1>Rua: ${data.logradouro}</h1>`;
+                }
+            }
+            xml.send();
+        }
+    </script>
+</html>
